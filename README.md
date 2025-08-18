@@ -1,4 +1,4 @@
-#NeoPortrait: AI-Powered Portrait Animation
+# 🎭 NeoPortrait: AI-Powered Portrait Animation
 AI-powered portrait animation tool using GANs and 3D morphing. Bring historical paintings to life!
 
 ![GitHub stars](https://img.shields.io/github/stars/yourusername/PortraitLive?style=social)
@@ -9,6 +9,12 @@ AI-powered portrait animation tool using GANs and 3D morphing. Bring historical 
 - [Quick Start](#quick)
 - [License](#license)
 
-# 1. Загрузите модель
-from src.gan_animation import animate_portrait
-animate_portrait("input.jpg", "output.mp4")
+## 🚀 Quick Start
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Download models:
+wget -P models/ https://example.com/vox-cpk.pth.tar
+3. Run the app:
+python app.py
