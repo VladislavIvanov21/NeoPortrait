@@ -1,25 +1,40 @@
-# 🎭 NeoPortrait: AI-Powered Portrait Animation
-AI-powered portrait animation tool using GANs and 3D morphing. Bring historical paintings to life!
+# 🎭 NeoPortrait: Инструмент для анимации портретов с помощью ИИ
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/PortraitLive?style=social)
-![License](https://img.shields.io/badge/License-MIT-blue)
+**NeoPortrait** — это инструмент на базе искусственного интеллекта, который оживляет исторические картины и портреты с использованием генеративно-состязательных сетей (GAN) и технологий 3D-морфинга. Создавайте реалистичные анимации лиц с плавными 3D-преобразованиями!
 
-- [Features](#features)
-- [Installation](#install)
-- [Quick Start](#quick)
-- [License](#license)
+[![GitHub stars](https://img.shields.io/github/stars/VladislavIvanov21/NeoPortrait)](https://github.com/VladislavIvanov21/NeoPortrait/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org)
+[![Docker](https://img.shields.io/badge/docker-поддерживается-blue)](https://www.docker.com)
 
-## 🚀 Features
+---
 
-- **GAN Animation**: Realistic face animation using First Order Motion Model
-- **3D Morphing**: 3D face reconstruction and animation
-- **Web Interface**: User-friendly Gradio interface
-- **Docker Support**: Easy deployment with Docker
+## 🚀 Возможности
 
-## 📦 Installation
+- **Анимация на базе GAN**: Реалистичная анимация лиц с использованием модели First Order Motion Model.
+- **3D-морфинг**: Реконструкция и анимация лиц в 3D для большей глубины и реализма.
+- **Веб-интерфейс**: Удобный интерфейс на базе Gradio для интерактивной работы и предварительного просмотра.
+- **Поддержка Docker**: Простая установка и запуск с помощью контейнеров Docker.
+- **Настраиваемые процессы**: Модульная архитектура для интеграции пользовательских моделей или стилей анимации.
+- **Высокое качество вывода**: Генерация анимированных портретов высокого разрешения для профессионального использования.
 
-### Local Installation
-```bash
-git clone https://github.com/yourusername/PortraitLive.git
-cd PortraitLive
-pip install -r requirements.txt
+---
+
+## 📋 Требования
+
+- Python 3.8+
+- PyTorch 1.9+ (с поддержкой CUDA для ускорения на GPU)
+- OpenCV, NumPy и другие зависимости (см. `requirements.txt`)
+- Опционально: Docker для развертывания в контейнерах
+- Рекомендуется: видеокарта (GPU) для ускорения обработки
+
+---
+
+## 📦 Установка
+
+### Локальная установка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/VladislavIvanov21/NeoPortrait.git
+   cd NeoPortrait
