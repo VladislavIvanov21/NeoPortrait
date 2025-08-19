@@ -9,12 +9,17 @@ AI-powered portrait animation tool using GANs and 3D morphing. Bring historical 
 - [Quick Start](#quick)
 - [License](#license)
 
-## 🚀 Quick Start
+## 🚀 Features
 
-1. Install dependencies:
+- **GAN Animation**: Realistic face animation using First Order Motion Model
+- **3D Morphing**: 3D face reconstruction and animation
+- **Web Interface**: User-friendly Gradio interface
+- **Docker Support**: Easy deployment with Docker
+
+## 📦 Installation
+
+### Local Installation
+```bash
+git clone https://github.com/yourusername/PortraitLive.git
+cd PortraitLive
 pip install -r requirements.txt
-
-2. Download models:
-wget -P models/ https://example.com/vox-cpk.pth.tar
-3. Run the app:
-python app.py
